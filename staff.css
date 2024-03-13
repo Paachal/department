@@ -1,0 +1,76 @@
+/* styles.css */
+
+/* Header styles */
+header {
+    background-color: #ff0; /* Blue */
+    color: #333; /* White */
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333; /* White */
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+}
+
+/* Section title styles */
+section h2 {
+    color: #007bff; /* Blue */
+}
+
+/* Staff section styles */
+section#staff ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+section#staff ul li {
+    margin-bottom: 20px;
+}
+
+section#staff ul li strong {
+    font-weight: bold;
+}
+
+section#staff ul li a {
+    color: #007bff; /* Blue */
+    text-decoration: none;
+}
+
+section#staff ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Footer styles */
+footer {
+    background-color: #007bff; /* Blue */
+    color: #fff; /* White */
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
