@@ -1,13 +1,13 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #fff; /* white */
-    color: #333; /* dark gray */
+    background-color: #333; /* white */
+    color: #fff; /* dark gray */
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #ff0; /* yellow */
+    background-color: rgb(6, 96, 148); /* yellow */
     padding: 20px;
     text-align: center;
 }
@@ -28,23 +28,34 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #333; /* dark gray */
+    color: #fff; /* dark gray */
 }
 
 nav ul li a:hover {
     color: #00f; /* blue */
 }
 
+main a {
+    color: #00f; /* Blue */
+    text-decoration: none; /* Remove underline */
+}
+
+main a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
 main {
     padding: 20px;
+    padding-bottom: 60px; /* Add padding equal to the height of the footer */
 }
+
 
 section {
     margin-bottom: 30px;
 }
 
 footer {
-    background-color: #00f; /* blue */
+    background-color: #333; /* blue */
     color: #fff; /* white */
     text-align: center;
     padding: 10px;

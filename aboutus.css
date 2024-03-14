@@ -40,7 +40,9 @@ nav ul li a:hover {
 
 main {
     padding: 20px;
+    padding-bottom: 60px; /* Add padding equal to the height of the footer */
 }
+
 
 section {
     margin-bottom: 30px;
@@ -59,7 +61,7 @@ footer {
     color: #fff; /* White */
     text-align: center;
     padding: 10px;
-    position: fixed;
+    position: absolute;
     bottom: 0;
     width: 100%;
 }

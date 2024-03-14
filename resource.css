@@ -1,16 +1,15 @@
 /* styles.css */
-
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4; /* Light gray */
-    color: #333; /* Dark gray */
+    background-color: #333; /* white */
+    color: #fff; /* dark gray */
     margin: 0;
     padding: 0;
 }
 
+
 header {
-    background-color: #ff0; 
-    color: #333; 
+    background-color: rgb(6, 96, 148); /* yellow */
     padding: 20px;
     text-align: center;
 }
@@ -31,15 +30,15 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #333; /* White */
+    color: #fff; /* White */
 }
 
 nav ul li a:hover {
     text-decoration: underline;
 }
-
 main {
     padding: 20px;
+    padding-bottom: 60px; /* Add padding equal to the height of the footer */
 }
 
 section#resources {
@@ -69,11 +68,11 @@ section ul li a:hover {
 }
 
 footer {
-    background-color: #007bff; /* Blue */
-    color: #fff; /* White */
+    background-color: #333; /* blue */
+    color: #fff; /* white */
     text-align: center;
     padding: 10px;
-    position: fixed;
+    position: absolute;
     bottom: 0;
     width: 100%;
 }
